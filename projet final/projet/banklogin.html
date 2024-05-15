@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABAM LLC - Login Page</title>
+    <link rel="stylesheet" href="logincss.css">
+    <link rel="icon" href="banklogo.png" type="image type" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="login.js"></script> 
+</head>
+
+<body>
+    <div class="topgr">
+        
+    </div>
+      <nav class="undgr">
+        <label class="logobank"><a href="#">
+            <img src="LABAM1.png"></a>
+        </label>
+        <ul class="navmen">
+            <li><a href="banklogin.html" >Log in</a></li>
+        
+        </ul>
+
+    </nav>
+    <div class="forms">
+<div id="logform">
+    <form action="nosoffres.html" onsubmit="return login()">
+        <h1>LABAM &trade;</h1><br>
+        <h2>Log In</h2><br>
+    <!-- <p>Welcome to LABAM Bank, provide us with your information to get started.</p><br><br> -->
+        <input type="text" id="userlog" placeholder="Enter your username"><br>
+        <input type="password" id="passlog" placeholder="Enter your password"><br>
+        <span id="logfeedback" style="color:red; font-family: montserrat; font-size: 1.2em; font-weight: 300;position: relative;bottom: 33px;left: 310px;"></span><br>
+        <input type="checkbox" onclick="ShowPass()"> <span>Show Password</span>
+        <input type="submit" value="Login">
+        <p>Not a member? </p> 
+        <button onclick="hide()">Sign Up</button>
+    </div>
+       
+    </form>
+    
+    <div id="signform">
+        <form id="secondform" action="banklogin.html" onsubmit="return signfb()">
+            <h1>LABAM Bank&trade;</h1><br>
+            <h2>Sign Up</h2><br>  
+            <input type="text" id="usereg" placeholder="Create Username" required><br>
+            <input type="password" id="passreg" placeholder="Create Password" required><br>
+            <input type="text" id="namereg" placeholder="Enter Full Name" required><br>
+            <input type="text" id="mailreg" placeholder="Enter Email" required><br>
+            <a href="nosoffres.html"><input type="submit" value="Register"></a>
+            <p>Already have an account? </p><button onclick="hide()">Log In</button>
+
+    </div>
+
+    
+</div>
+
+
+
+    <footer>
+        <div class="footer-container">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div><br><br>
+        <div class="footerNav">
+    <ul>
+            <li><a href="">Log In</a></li>
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li></ul>
+        </div>
+       
+    </div>
+    <div class="footerBottom">
+        <p> 2023 &copy; All Rights Reserved Designed by<span class="designer"> Labchiri Ahmed &amp; Imad Ait Belmouden</span></p>
+    
+    </div>
+    
+    </footer> 
+
+
+
+</body>
+</html>

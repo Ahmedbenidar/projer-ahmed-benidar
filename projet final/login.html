@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="logo1.png" type="image type" sizes="16x16">
+    
+ 
+    <script defer src="login.js"></script> 
+</head>
+
+<body>
+   
+    <div class="topgr">
+           </div>
+      <nav class="undgr">
+      <label class="gym"><a href="#">
+      <img class="sizelogo" src="logo1.png"></a>
+      </label>
+      <ul class="navmen">
+      <li><a href="banklogin.html" style="color: rgb(220, 183, 58);" >Log in</a></li>
+      </ul>
+      </nav>
+    <div class="forms">
+<div id="logform">
+    <form action="home.html" onsubmit="return login()">
+        <h1>Mega gym</h1><br>
+        <h2>Log In</h2><br>
+        <label for="userlog"> UserName :</label>
+        <input type="text" id="userlog" placeholder="Enter your username"><br>
+
+
+        <label for="passlog"> Password:</label>
+        <input type="password" id="passlog" placeholder="Enter your password" ><br>
+        
+        <span id="logfeedback" ></span><br>
+        <input type="checkbox" onclick="ShowPass()" > <span>Show Password</span>
+        <input type="submit" value="Login">
+          <p>Not a member? </p> 
+          <button onclick="hide()">Sign Up</button>
+        </form>
+    </div>
+    <div id="signform">
+        <form id="secondform" action="" onsubmit="return signfb()">
+            <h1>Mega gym</h1><br>
+            <h2>Sign Up</h2><br>  
+            <input type="text" id="usereg" placeholder="Create Username" required><br>
+            <input type="password" id="passreg" placeholder="Create Password" required><br>
+            <input type="text" id="namereg" placeholder="Enter Full Name" required><br>
+            <input type="text" id="mailreg" placeholder="Enter Email" required><br><br>
+            <span id="s1"> </span><br>
+            <a href="home.html"><input type="submit" value="Register"></a>
+            <p>Already have an account? </p><button onclick="hide()">Log In</button>
+
+    </div>
+
+    
+</div>
+  
+
+
+    <footer>
+        <div class="footer-container">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div><br><br>
+ 
+   
+    <div class="footerBottom">
+        <p> 2023 &copy; All Rights Reserved Designed by Ahmed benidar</p>
+    
+    </div>
+    
+    </footer> 
+
+
+
+</body>
+</html>

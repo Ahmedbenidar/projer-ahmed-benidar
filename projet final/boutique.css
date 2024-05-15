@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(boubg3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 187px;
+    min-height: 100vh;
+    
+}
+.undgr{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 120px;
+    position: relative;
+    z-index: 3;
+}
+label.logogym{
+    line-height: 80px;
+    size: 35px;
+    padding: 11px;
+    position: absolute;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5 px;
+    padding-top: 10px;
+
+}
+nav ul li a{
+    color: #f3c90c;
+    border-radius: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    padding: 19px;
+    margin: 17px;
+    display: block;
+}
+ .navmen li a:hover{
+    background:#919c28 ;
+    
+}
+
+
+
+.undgr{
+    position: relative;
+    
+}
+
+
+.cdesc{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 500px;
+    z-index: 3;
+    min-height: 100vh;
+    height: 580%;
+}
+.cdesc h1{
+    
+    position: absolute;
+    font-weight: 1900;
+    color: rgb(221, 185, 22);
+    padding-left:35%;
+    z-index: 3;
+    top: 2%;
+} 
+
+.cdesc h2{
+    
+    
+    color: rgb(255, 217, 0);
+   
+} 
+div.relative2 {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: rgb(196, 210, 116);
+   height: 40cm;
+ 
+  }
+  div.relative3 {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: rgb(196, 210, 116);
+   height: 40cm;
+ top: 30%;
+  }
+  div.relative4 {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: rgb(196, 210, 116);
+   height: 40cm;
+ bottom:  10%;
+  }
+
+  div.absolute11{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 55%;
+    width: 60%;
+    top: 10%;
+ }
+ div.absolute22{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 10%;
+    left: 22%;
+    width: 60%;
+    top: 10%;
+ }
+ div.absolute33{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 0%;
+    left: 60%;
+    width: 60%;
+    top: 10.5%;
+ }
+   
+ div.absolute44{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 55%;
+    width: 60%;
+    top: 30%;
+ }
+
+
+ div.absolute55{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 10%;
+    left: 22%;
+    width: 60%;
+    top: 30%;
+ }
+ div.absolute66{
+    position: absolute;
+    border: 5px hidden ;
+    text-align: center;
+    right: 0%;
+    left: 60%;
+    width: 60%;
+    top: 30%;
+ }
+   
+ button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: rgb(232, 212, 64);
+    color: hsl(0, 0%, 0%);
+    box-shadow: rgb(232, 217, 217) 0px 7px 29px 0px;
+  }
+  
+ 
+

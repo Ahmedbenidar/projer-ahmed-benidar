@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background : url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 187px;
+    min-height: 100vh;
+  
+}
+
+.undgr{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 120px;
+    position: relative;
+    z-index: 3;
+}
+label.logogym{
+    line-height: 80px;
+    size: 35px;
+    padding: 11px;
+    position: absolute;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5 px;
+    padding-top: 10px;
+
+}
+nav ul li a{
+    color: #f3c90c;
+    border-radius: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    padding: 19px;
+    margin: 17px;
+    display: block;
+}
+ .navmen li a:hover{
+    background:#919c28 ;
+    
+}
+
+footer{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-container{
+    width:100%;
+    padding: 70 30 20px;
+}
+.socialIcons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #bfcf31;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: rgb(179, 176, 176);
+    transition: .5s;
+}
+.socialIcons a:hover i{
+    background-color:#bfcf31 ;
+    transition:.5s;
+}
+
+
+.footerBottom{
+    color: #bfcf31;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.undgr{
+    position: relative;
+    
+}
+
+
+.cbg h1
+{
+    
+    position: absolute;
+    font-weight: 900;
+    color: rgb(221, 185, 22);
+    padding-top: 34%;
+    padding-left:5%;
+    z-index: 3;
+}
+
+.cdesc{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 500px;
+    z-index: 3;
+    min-height: 100vh;
+    height: 390%;
+}
+
+.bloc1{
+    right: 950px;
+    position: absolute;
+    top: 47%;
+}
+.box1{
+    background-color:rgba(229, 219, 219, 0.95);
+    width:300px;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    left: 15%;
+    bottom: 170px;
+}
+.box1:hover{
+    border: 2px solid rgba(0, 255, 255, 0.943);
+    transition: .50s;
+    
+}
+.bloc1 h6{
+    position:relative;
+    bottom: -50px;
+    /* left: 50%; */
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Lato ;
+    font-weight: 550;
+}
+.bloc1 h4{
+    position:relative;
+    bottom: -7px;
+    /* left: 50%; */
+    font-size: 0.9em;
+    text-align: center;
+    font-family: Lato ;
+    font-weight: 800;
+    color: #dbf309;
+}
+.dummy{
+    position: relative;
+    line-height: 1.57;
+    bottom: -57px;
+    font-size: 1.1em;
+    line-break: normal;
+    font-family: Lato;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-right: 25px;
+    list-style: circle;
+    
+}
+
+.advantages1{
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-size: 0.95em;
+    padding-bottom: 5px;
+   
+}
+.box2{
+    background-color:rgba(172, 193, 162, 0.95);
+    width: 300px;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    left: 18%;
+    bottom: 170px;
+}
+
+   
+    .box2:hover{
+        border: 2px solid rgba(0, 255, 255, 0.943);
+        transition: .50s;
+    }
+    .bloc2 h6{
+        position:relative;
+        bottom: -50px;
+        /* left: 50%; */
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Lato ;
+        font-weight: 550;
+    }
+    .bloc2 h4{
+        position:relative;
+        bottom: -7px;
+        /* left: 50%; */
+        font-size: 0.9em;
+        text-align: center;
+        font-family: Lato ;
+        font-weight: 800;
+        color: #dbf309;
+    }
+    .bloc2{
+        right: 5%;
+        position: absolute;
+        top: 47%;
+    }
+    .advantages2{
+        position: relative;
+        top: 180px;
+        text-align: center;
+        font-size: 0.95em;
+        padding-bottom: 5px;
+       
+    }
+
+    .box3{
+        background-color:rgba(212, 175, 65, 0.95);
+        width: 300px;
+        height: 450px;
+        position: relative;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        left: 14%;
+        bottom: 170px;
+    }
+
+        .box3:hover{
+            border: 2px solid rgba(191, 207, 49,.8);
+            transition: .5s;
+        }
+        .bloc3 h6{
+            position:relative;
+            bottom: -50px;
+            /* left: 50%; */
+            font-size: 1.5em;
+            text-align: center;
+            font-family: Lato ;
+            font-weight: 550;
+        }
+        .bloc3 h4{
+            position:relative;
+            bottom: -7px;
+            /* left: 50%; */
+            font-size: 0.9em;
+            text-align: center;
+            font-family: Lato ;
+            font-weight: 800;
+            color: #bfcf31;
+        }
+        .bloc3{
+            right: 500px;
+            position: absolute;
+            top: 47%;
+        }
+        .advantages4{
+            position: relative;
+            top: 60px;
+            text-align: center;
+            font-size: 0.95em;
+            padding-bottom: 5px;
+           
+        }
+        .advantages3{
+            position: relative;
+            top: 70px;
+            text-align: center;
+            font-size: 0.95em;
+            padding-bottom: 5px;
+           
+        }
+        .advantages5{
+            position: relative;
+            top: 90px;
+            text-align: center;
+            font-size: 0.95em;
+            padding-bottom: 5px;
+           
+        }
+        .advantages6{
+            position: relative;
+            top: 100px;
+            text-align: center;
+            font-size: 0.95em;
+            padding-bottom: 5px;
+           
+        }
+        div.relative {
+            position: relative;
+            border: 5px solid hidden ;
+            padding: 100px;
+           
+        color: rgb(202, 236, 8);
+          }
+          div.absolute1{
+            position: absolute;
+            border: 5px hidden ;
+            text-align: center;
+            right: 60%;
+            width: 60%;
+            top: 10%;
+         }
+         div.absolute2{
+            position: absolute;
+            border: 5px hidden ;
+            text-align: center;
+            right: 30%;
+            width: 60%;
+            top: 10%;
+         }
+         div.absolute3{
+            position: absolute;
+            border: 5px hidden ;
+            text-align: center;
+            right: 0%;
+            width: 60%;
+            top: 10%;
+         }
+           
+         
+ 
+         div.absolute4{
+            position: absolute;
+            border: 5px hidden ;
+            text-align: center;
+             left: 64%;
+            width: 60%;
+            top: 10%;
+         }
+         .cbg2 h1
+         {
+             
+             position: absolute;
+             font-weight: 900;
+             color: rgb(221, 185, 22);
+             
+             padding-left:25%;
+             z-index: 3;
+         } 
+
+         div.h1 {
+            position: absolute;
+            font-weight: 900;
+            color: rgb(221, 185, 22);
+          padding-left:34%;
+           
+            
+          }
+          button {
+            padding: 17px 40px;
+            border-radius: 50px;
+            cursor: pointer;
+            border: 0;
+            background-color: white;
+            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            font-size: 15px;
+            transition: all 0.5s ease;
+          }
+          
+          button:hover {
+            letter-spacing: 3px;
+            background-color: rgb(232, 212, 64);
+            color: hsl(0, 0%, 0%);
+            box-shadow: rgb(232, 217, 217) 0px 7px 29px 0px;
+          }
+          
+
+      

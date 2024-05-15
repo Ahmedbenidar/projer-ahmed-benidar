@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 187px;
+    min-height: 100vh;
+}
+
+.undgr{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 120px;
+    position: relative;
+    z-index: 3;
+}
+label.logogym{
+    line-height: 80px;
+    size: 35px;
+    padding: 11px;
+    position: absolute;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5 px;
+    padding-top: 10px;
+
+}
+nav ul li a{
+    color: #f3c90c;
+    border-radius: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    padding: 19px;
+    margin: 17px;
+    display: block;
+}
+ .navmen li a:hover{
+    background:#919c28 ;
+    
+}
+
+footer{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-container{
+    width:100%;
+    padding: 70 30 20px;
+}
+.socialIcons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #bfcf31;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: rgb(179, 176, 176);
+    transition: .5s;
+}
+.socialIcons a:hover i{
+    background-color:#bfcf31 ;
+    transition:.5s;
+}
+
+.footerBottom{
+    color: #bfcf31;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.undgr{
+    position: relative;
+    
+}
+
+
+.cbg h1
+{
+    
+    position: absolute;
+    font-weight: 900;
+    color: rgb(221, 185, 22);
+    padding-top: 34%;
+    padding-left:5%;
+    z-index: 3;
+}
+
+.cdesc{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 500px;
+    z-index: 3;
+    min-height: 100vh;
+    height: 320%;
+}
+.cdesc h1{
+    
+    position: absolute;
+    font-weight: 1900;
+    color: rgb(221, 185, 22);
+    padding-left:35%;
+    z-index: 3;
+    top: 30%;
+    left: 7%;
+} 
+div.relative {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: rgb(240, 28, 102);
+   top: 8%;
+  }
+
+  div.absolute{
+    position: absolute;
+    border: 5px solid hidden ;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    top: 5%;
+    left: 2%;
+    color: #919c28;
+ }
+ div.absolute1{
+    position: absolute;
+    border: 5px solid hidden  ;
+    text-align: center;
+   width: 75%;
+    height: 90%;
+    top: 5%;
+    left: 20%;
+    color: #f3bb24;
+ }
+ div.relative1 {
+    position: relative;
+    border: 5px solid hidden  ;
+    padding: 100px;
+   color:#f3bb24;
+   top: 12%;
+  }
+
+  div.relative2 {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: #f3bb24;
+   top: 16%;
+  }
+
+  div.relative3 {
+    position: relative;
+    border: 5px solid hidden ;
+    padding: 100px;
+   color: rgb(240, 161, 33);
+   top: 21%;
+  }
+ p.p{
+    position: relative;
+    text-align: left;
+   color: #f3bb24;
+   top: 10%;
+   left: 2%;
+  }
+  button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: rgb(232, 212, 64);
+    color: hsl(0, 25%, 90%);
+    box-shadow: rgb(232, 217, 217) 0px 7px 29px 0px;
+  }
+  
+ 
